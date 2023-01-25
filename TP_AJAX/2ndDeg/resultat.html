@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Equa 2nd Degré</title>
+  </head>
+  <body>
+    <h1>Equation du second degré</h1>
+    a <input type="number" id="a">
+    b <input type="number" id="b">
+    c <input type="number" id="c">
+    <br>
+    <br>
+    <button type="button" onclick="resoudre()">Résoudre</button>
+    <h1>Résultat</h1>
+    <span id="res"></span>
+  </body>
+</html>
+
+<script>
+  function resoudre(){
+    a = document.getElementById('a').value;
+    b = document.getElementById('b').value;
+    c = document.getElementById('c').value;
+
+    mesCoefs = {"a":a, "b":b, "c":c};
+    mesParams = JSON.stringify(mesCoefs);
+
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById('res').innerHTML = this.responseText;
+      }
+    };
+
+    xhttp.open("POST", "calcul.php", true);
+    xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhttp.send("coefs="+mesParams);
+  }
+</script>

@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background-color: #312e2b
+}
+
+h1{
+  color: white;
+  text
+}
+
+#BV{
+  margin-top: 2em;
+  font-size: 60px;
+  color: #769656;
+}
+
+select{
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.fond{
+  background-color: #769656;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 50%;
+  padding: 20px
+}
+
+#winnerIS{
+  margin: 3em auto;   /* IDEA: margin : haut droit bas gauche */
+  width: 50%
+}
