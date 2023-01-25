@@ -1,0 +1,23 @@
+body{
+  background-color: #312e2b   /*marron chess.com*/
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: #769656;     /*vert chess.com*/
+}
+
+label{
+  display: block;     /* IDEA: Aligne verticalement */
+}
+
+html{
+  color: white;
+}
+
+fieldset{
+  margin-bottom: 1em;
+  color: #769656;
+  border-color: #769656;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- le lien du ou des CSS-->
+      <link rel="stylesheet" type="text/css" href="mvmt.css" />
+      <script type="text/javascript" src="mvmt.js"></script>
+      <!-- Les metas ''classic'' -->
+      <meta name="author" content="Titouan Pradal" />
+      <meta name="keywords" content="image" />
+      <!-- le titre de la page -->
+      <title>Image qui bouge</title>
+    </head>
+    <body>
+      <img id=MyImg src="/pau/homee/p/pradaltito/Images/cytech_logo.png"
+      onclick="popUp()"
+      onmouseover="changeImg(this)"
+      onmouseout="normalImg(this)">
+
+      <hr>
+
+      <input type="button" id="randFilm" name="randFilm" value="Film aléatoire" onclick="changement()"/>
+      <img id="imgRand" src="/pau/homee/p/pradaltito/Images/bk.jpg">
+    </body>
+</html>

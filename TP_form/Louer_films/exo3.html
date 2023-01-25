@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La location</title>
+		<link rel="stylesheet" type="text/css" href="exo3.css" />
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form id="monForm" name="monForm" action="louer.html" method="GET">
+			<div id="panier">
+		  	<h1>DVD</h1>
+		  	<p>Tous les DVDs à 2€50!!!</p>
+		  	<p>Cliquez sur l'image pour (dé)sélectionner un DVD</p>
+		  	<p>Montant du panier : <span id="prix">0 €</span> </p>
+				<input type="submit" id="submit" name="submit" value="Valider">
+				<input type="hidden" id="Jurassic Parc" name="Jurassic Parc" value="non">
+				<input type="hidden" id="Star Wars" name="Star Wars" value="non">
+				<input type="hidden" id="Hobbit" name="Hobbit" value="non">
+				<input type="hidden" id="Cite Or" name="Cite Or" value="non">
+				<input type="hidden" id="Le dernier Empereur" name="Le dernier Empereur" value="non">
+				<input type="hidden" id="Apocalypse now" name="Apocalypse now" value="non">
+
+			</div>
+
+			<div id="magasin">
+				<h3>DVDs disponibles</h3>
+				<img alt="Jurassic Parc" src="img/1.jpeg">
+				<img alt="Star Wars" src="img/2.jpeg">
+				<img alt="Hobbit" src="img/3.jpeg">
+				<img alt="Cite Or" src="img/4.jpeg">
+				<img alt="Le dernier Empereur" src="img/5.jpeg">
+				<img alt="Apocalypse now" src="img/6.jpeg">
+			</div>
+
+			<div id="choix">
+		  	<h3>DVDs choisis</h3>
+			</div>
+		</form>
+	</body>
+	<script type="text/javascript" src="exo3.js"></script>
+</html>

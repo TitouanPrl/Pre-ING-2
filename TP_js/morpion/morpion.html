@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- le lien du ou des CSS-->
+      <link rel="stylesheet" type="text/css" href="morpion.css" />
+      <meta charset="utf-8">
+      <script type="text/javascript" src="morpion.js"></script>
+      <!-- Les metas ''classic'' -->
+      <meta name="author" content="Titouan Pradal" />
+      <meta name="keywords" content="morpion" />
+      <!-- le titre de la page -->
+      <title>Bô morpion (non)</title>
+    </head>
+    <body>
+      <table>
+          <caption>Morpion :</caption>
+          <tbody>
+              <tr>
+                  <td><img id="case0" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 0, 0)"></td>
+                  <td><img id="case1" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 0, 1)"></td>
+                  <td><img id="case2" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 0, 2)"></td>
+              </tr>
+              <tr>
+                  <td><img id="case3" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 1, 0)"></td>
+                  <td><img id="case4" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 1, 1)"></td>
+                  <td><img id="case5" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 1, 2)"></td>
+              </tr>
+              <tr>
+                  <td><img id="case6" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 2, 0)"></td>
+                  <td><img id="case7" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 2, 1)"></td>
+                  <td><img id="case8" src="/pau/homee/p/pradaltito/Images/cytech_logo.png" onclick="joue(id, 2, 2)"></td>
+              </tr>
+          </tbody>
+      </table>
+
+      <input id="Refresh" Type="button" value="Rafraîchir la page" onClick="history.go(0)">
+
+    </body>
+</html>

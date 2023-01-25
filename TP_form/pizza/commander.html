@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Commander</title>
+        <link rel="stylesheet" href="commander.css">
+    </head>
+    <body>
+      <h1>Ma commande</h1>
+
+      <fieldset id="commande">
+        <legend>Ma pizza</legend>
+        <p> Pâte => <span id="pate"></span>
+        <p> Sauce => <span id="sauce"></span>
+        <p> Ingrédient 1 => <span id="ing1"></span>
+        <p> Ingrédient 2 => <span id="ing2"></span>
+        <p> Ingrédient 3 => <span id="ing3"></span>
+        <p> Carte de fidélité => <span id="fidelite"></span>
+      </fieldset>
+
+      <form id="monForm" name="monForm" action="livrer.html" method="GET">
+        <fieldset>
+          <legend>Mes informations perso</legend>
+          <label>Nom</label> <input type="text" id="nom" name="nom" required="required">
+          <label>Prénom</label> <input type="text" id="prenom" name="prenom" required="required">
+          <label>Numéro de téléphone</label> <input type="text" id="num" name="num" required="required">
+          <label>N°</label> <input type="text" id="n" name="n" required="required">
+          <label>Appelation</label> <input type="text" id="appel" name="appel" required="required">
+          <label>Code postal</label> <input type="text" id="code" name="code" required="required">
+          <label>Ville</label> <input type="text" id="ville" name="ville" required="required">
+        </fieldset>
+          <input type="submit" id="submit" name="submit" value="Valider">
+       </form>
+    </body>
+     <script type="text/javascript" src="recup1.js"></script>
+</html>

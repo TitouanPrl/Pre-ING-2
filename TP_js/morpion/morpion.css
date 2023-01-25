@@ -1,0 +1,41 @@
+body{
+  background-color: #312e2b
+}
+
+table,td {
+    border: 1px solid #333;
+    background-color: #769656;
+    margin: auto;
+    margin-top: 30%;
+    border-collapse: collapse;
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+thead,tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+#Refresh{
+  margin-top: 5em;
+  margin-left: 44%;
+  background-color: #769656;
+  color: white;
+  border-color: #769656;
+  border-radius : 10px
+}
+
+caption{
+  padding: 10px;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+}

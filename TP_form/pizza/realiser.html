@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Handmade pizza</title>
+        <link rel="stylesheet" href="realiser.css">
+    </head>
+    <body>
+      <h1>Ma pizza</h1>
+
+      <form id="monForm" name="monForm" action="commander.html" method="GET">
+        <fieldset>
+          <legend>Template</legend>
+
+          <label for="pate">La pâte</label>
+          <select id="pate" name="pate">
+            <option value="">Select a pate</option>
+            <option value="napolitaine">Napolitaine</option>
+            <option value="je suis pas pizzaiolo frere">je suis pas pizzaiolo frère</option>
+          </select>
+
+          <label for="sauce">Sauce</label>
+          <select id="sauce" name="sauce">
+            <option value="">Select a sauce</option>
+            <option value="tomate">Tomate</option>
+            <option value="blanche">Blanche</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Ingrédients</legend>
+          <label for="ing1">Ingrédient 1</label>
+          <select id="ing1" size="3" name="ing1">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="gruyere">Gruyère</option>
+          </select>
+
+          <label for="ing2">Ingrédient 2</label>
+          <select id="ing2" size="3" name="ing2">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="gruyere">Gruyère</option>
+          </select>
+
+          <label for="ing3">Ingrédient 3</label>
+          <select id="ing3" size="3" name="ing3">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="gruyere">Gruyère</option>
+          </select>
+        </fieldset>
+
+        <fieldset id="fideliteField">
+          <legend>Fidélité</legend>
+            <label>Avez-vous la carte de fidelité ?</label>
+            Oui<input type="radio" id="fidelite" name="fidelite" value="Oui">
+            Non<input type="radio" id="fidelite" name="fidelite" value="Non">
+            Non binaire<input type="radio" id="identite" name="identite" value="non-binaire">
+          </fieldset>
+          <input type="submit" id="submit" name="submit" value="Envoyer la commande">
+
+       </form>
+    </body>
+</html>
