@@ -1,0 +1,104 @@
+body{
+background-color: #e5e5e5 ;
+}
+
+#presentation{
+text-align: center;
+border: 3px solid black;
+margin-right: 58%;
+margin-bottom:1%;
+background-color: #343a40;
+text-align: center;
+font-weight: bold;
+font-size: 14pt;
+color: white;
+float: left;
+}
+
+#panier{
+text-align: center;
+border: 3px solid black;
+margin-bottom:1%;
+margin-left: 50%;
+margin-right: 5%;
+background-color: #343a40;
+text-align: center;
+font-weight: bold;
+font-size: 14pt;
+color: white;
+}
+
+#magasinChapeau{
+text-align: center;
+border: 3px solid #343a40;
+width: 40%;
+padding: 5px;
+background-color: #2660aa;
+float: left;
+}
+
+#magasinVetementHaut{
+text-align: center;
+border: 3px solid #343a40;
+width: 40%;
+padding: 5px;
+background-color: #2660aa;
+}
+
+#magasinVetementBas{
+text-align: center;
+border: 3px solid #343a40;
+width: 40%;
+padding: 5px;
+background-color: #2660aa;
+}
+
+#magasinChaussure{
+text-align: center;
+border: 3px solid #343a40;
+width: 40%;
+padding: 5px;
+float: left;
+background-color: #2660aa;
+}
+
+#choix{
+text-align: center;
+border: 3px solid #343a40;
+width: 30%;
+margin-left: 67%;
+padding: 5px;
+background-color: #94c5e3;
+}
+
+
+img{
+width:100px;
+margin: 5px;
+}
+
+.bouton{
+margin-right: 20px;
+}
+
+#magasin.s1{
+  font-style: italic;
+  background-color: #452F5C;
+}
+#magasin.s2{
+  color: #52F52A;
+  background-color: #54BB57;
+}
+nav{
+  border: solid black 1px;
+  margin: 5px;
+  cursor: default;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: nonde;
+  display: inline-block;
+}
